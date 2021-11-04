@@ -21,17 +21,3 @@
        </div>
    </div>
 </section>
-<script>
-
-    $( document ).ready(function() {
-        setTimeout(function(){ 
-            $('.box-popup').fadeIn();
-        }, 3000);
-    });
-
-    function close_modalito() {
-        document.getElementById("pop-up").style.display = "none";
-    }
-    $(document).scroll(function () {
-    });
-</script>
